@@ -70,9 +70,9 @@ Chloridy：项目发起人+主笔，2023届小废物学长.欢迎新生和我进
 
 想为这个项目做出贡献，你需要有Git、Github的基础知识，并且你最好掌握一些基础markdown语法。（显然，这个手册就是由markdown写就。）
 
-Git使用可参照 [这个视频].(https://www.bilibili.com/video/BV1ht411R7p8/?share_source=copy_web&vd_source=d83425b3650df503dd549a7ea72a31d2)
+Git使用可参照 [这个视频](https://www.bilibili.com/video/BV1ht411R7p8/?share_source=copy_web&vd_source=d83425b3650df503dd549a7ea72a31d2).
 
-Markdown基础语法可参照 [这里].(https://markdown.com.cn/basic-syntax/)
+Markdown基础语法可参照 [这里](https://markdown.com.cn/basic-syntax/).
 
 ## 01 入校必看：合一常识
 
