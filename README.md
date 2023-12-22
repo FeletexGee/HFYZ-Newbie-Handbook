@@ -5,6 +5,10 @@
 HFYZ-Newbie-Handbook:The new edition of Handbook for Hefei No.1 High School newcomers.(Simplified Chinese version only:-( )  
 合肥一中新生入学手册（新版）  
 
+目前该项目的内容修订会优先合并到`Dev`分支，之后以月/年为周期（视修订内容多少而定），将`Dev`分支中改动合并到`master`。
+
+欢迎合一校友/学生加入开发，完善社区开发体制。
+
 ~~另外欢迎好心校友来写一下i18n~~
 
 # 合一新生入学手册（新版）
