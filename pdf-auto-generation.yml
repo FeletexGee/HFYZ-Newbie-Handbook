@@ -1,0 +1,35 @@
+# This is a basic workflow to help you get started with Actions
+
+name: PDF-Release-Auto-Generation
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir:  /
+          output_dir: /PDF-Releases
+          images_dir: ./res
+          # for example <img src="./images/file-name.png">
+          image_import: ./res
+          # Default is true, can set to false to only get PDF files
+          build_html: false
+          build_pdf: true
+      - uses: actions/upload-artifact@v3
+        with:
+          name: 合肥一中新生入学手册(新)
+          path: /PDF-Releases
+
