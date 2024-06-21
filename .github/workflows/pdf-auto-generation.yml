@@ -20,16 +20,15 @@ jobs:
       - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir:  /
-          output_dir: /PDF-Releases
-          images_dir: ./res
+          input_dir:  ./
+          output_dir: PDF-Releases
+          images_dir: res
           # for example <img src="./images/file-name.png">
-          image_import: ./res
-          # Default is true, can set to false to only get PDF files
+          image_import: res
           build_html: false
           build_pdf: true
       - uses: actions/upload-artifact@v3
         with:
           name: 合肥一中新生入学手册(新)
-          path: /PDF-Releases
+          path: PDF-Releases
 
