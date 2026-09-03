@@ -8,5 +8,5 @@ site:
       path: untitled
       default: true
       content:
-        directory: ./untitled
+        directory: ./
         language: zh
