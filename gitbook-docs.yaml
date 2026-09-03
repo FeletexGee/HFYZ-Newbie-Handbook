@@ -1,0 +1,10 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: HFYZ Newbie Handbook
+  structure:
+    - type: space
+      key: hfyz-newbie-handbook
+      title: 合一新生入学手册（新版）
+      path: /
+      content:
+        directory: .
